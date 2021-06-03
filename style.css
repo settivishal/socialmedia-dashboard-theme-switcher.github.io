@@ -320,7 +320,7 @@ input:checked + .slider::before {
 /* ------media query-------- */
 @media screen and (max-width: 750px) {
   .container {
-    margin: auto;
+    margin: auto 5px;
   }
   header {
     flex-direction: column;
@@ -344,6 +344,16 @@ input:checked + .slider::before {
   .overview-container {
     padding: auto;
     margin: auto;
+  }
+  .fb-views,
+  .fb-likes,
+  .insta-likes,
+  .insta-views,
+  .retweets,
+  .twitter-likes,
+  .yt-likes,
+  .yt-views {
+    height: 120px;
   }
 }
 /* -----footer----- */
